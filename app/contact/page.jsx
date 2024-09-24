@@ -57,7 +57,7 @@ const Contact = () => {
   const handleContactForm = async () => {
     try {
       const encryptedText = encryptText("12345");
-      const response = await fetch("http://localhost:9094/api/v1/pf-contact", {
+      const response = await fetch("https://backend.luxara.ai/api/v1/pf-contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

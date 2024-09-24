@@ -42,7 +42,7 @@ const Nav = () => {
         action_name = "resume_click";
       }
       const encryptedText = encryptText("12345");
-      await fetch("http://localhost:9094/api/v1/action", {
+      await fetch("https://backend.luxara.ai/api/v1/action", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

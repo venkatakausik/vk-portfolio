@@ -66,8 +66,8 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <div onClick={() => handleResumeDownloadClick()}>
               <a
-                href="/resume.pdf"
-                download="Venkata_Kausik_Resume.pdf"
+                href="/Venkata_Kausik_Renduchintala_Resume.pdf"
+                download="Venkata_Kausik_Renduchintala_Resume.pdf"
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2 border-2 border-white rounded-full px-4"
